@@ -1,0 +1,113 @@
+/*
+Theme Name: EE Theme
+Author: Alejandro Cremades
+Author URI: /
+Description: Child theme of twentytwelve for Escucha español
+Template: twentytwelve
+*/
+@import url("../twentytwelve/style.css");
+/*@import url("ee.css");*/
+
+/* Buttons */
+.menu-toggle,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+article.post-password-required input[type=submit],
+li.bypostauthor cite span {
+	background-color: #ff0 !important;
+	background-image: -moz-linear-gradient(top, #ff0, #eeee00) !important;
+	background-image: -ms-linear-gradient(top, #ff0, #eeee00) !important;
+	background-image: -webkit-linear-gradient(top, #ff0, #eeee00) !important;
+	background-image: -o-linear-gradient(top, #ff0, #eeee00) !important;
+	background-image: linear-gradient(top, #ff0, #eeee00) !important;
+}
+
+li.bypostauthor cite span {
+	background-color: #c00 !important;
+}
+
+.site-title img {
+	max-width: 100% !important; /* Fluid images for posts, comments, and widgets */
+}
+
+a {
+	color: #c00 !important;
+}
+a:hover {
+	color: #c00 !important;
+	/*font-weight: bold !important;*/
+	text-decoration: underline !important;
+}
+
+.site-header h1 a:hover,
+.site-header h2 a:hover {
+	color: #c00 !important;
+}
+
+.main-navigation li {
+	padding: 0 20px 0 20px;
+	padding: 0 1.4285714285rem 0 1.4285714285rem;
+	margin: 0 !important;
+	margin: 0 !important;
+}
+.main-navigation li a {
+	line-height: 2;
+}
+.main-navigation a:hover {
+	color: #c00 !important;
+}
+.main-navigation li ul li {
+	left: -20px !important;
+}
+
+.main-navigation li:hover, .main-navigation li ul li, .main-navigation li ul li a {
+	background-color: #ff9 !important;
+}
+
+.widget-area .widget a:hover {
+	color: #c00 !important;
+}
+
+footer[role="contentinfo"] a:hover {
+	color: #c00 !important;
+}
+
+.comments-link a:hover,
+.entry-meta a:hover {
+	color: #c00 !important;
+}
+
+.format-status .entry-header header a:hover {
+	color: #c00 !important;
+}
+
+.comments-area article header a:hover {
+	color: #c00 !important;
+}
+
+a.comment-reply-link:hover,
+a.comment-edit-link:hover {
+	color: #c00 !important;
+}
+
+.template-front-page .widget-area .widget li a:hover {
+	color: #c00 !important;
+}
+
+@media screen and (min-width: 960px) {
+	body {
+		background-color: #ff9 !important;
+	}
+}
+
+.tagcloud a{
+	color: #444 !important;
+}
+
+img.noShadow{
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+

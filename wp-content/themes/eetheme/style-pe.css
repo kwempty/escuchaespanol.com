@@ -1,0 +1,84 @@
+/*
+Theme Name: EE Theme
+Author: Alejandro Cremades
+Author URI: /
+Description: Child theme of twentytwelve for Escucha español
+Template: twentytwelve
+*/
+@import url("../twentytwelve/style.css");
+/*@import url("ee.css");*/
+
+/* Buttons */
+.menu-toggle,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+article.post-password-required input[type=submit],
+li.bypostauthor cite span {
+	background-color: #ffff00 !important;
+	background-image: -moz-linear-gradient(top, #ffff00, #eeee00) !important;
+	background-image: -ms-linear-gradient(top, #ffff00, #eeee00) !important;
+	background-image: -webkit-linear-gradient(top, #ffff00, #eeee00) !important;
+	background-image: -o-linear-gradient(top, #ffff00, #eeee00) !important;
+	background-image: linear-gradient(top, #ffff00, #eeee00) !important;
+}
+
+li.bypostauthor cite span {
+	background-color: #339900 !important;
+}
+
+.site-title img {
+	max-width: 100% !important; /* Fluid images for posts, comments, and widgets */
+}
+
+a {
+	color: #339900 !important;
+}
+a:hover {
+	color: #005a00 !important;
+}
+
+.site-header h1 a:hover,
+.site-header h2 a:hover {
+	color: #339900 !important;
+}
+
+.main-navigation a:hover {
+	color: #339900 !important;
+}
+
+.widget-area .widget a:hover {
+	color: #339900 !important;
+}
+
+footer[role="contentinfo"] a:hover {
+	color: #339900 !important;
+}
+
+.comments-link a:hover,
+.entry-meta a:hover {
+	color: #339900 !important;
+}
+
+.format-status .entry-header header a:hover {
+	color: #339900 !important;
+}
+
+.comments-area article header a:hover {
+	color: #339900 !important;
+}
+
+a.comment-reply-link:hover,
+a.comment-edit-link:hover {
+	color: #339900 !important;
+}
+
+.template-front-page .widget-area .widget li a:hover {
+	color: #339900 !important;
+}
+
+@media screen and (min-width: 960px) {
+	body {
+		background-color: #ffff00 !important;
+	}
+}
